@@ -53,7 +53,7 @@ canvas2.pack()
 my_image2=PhotoImage(file='/home/pi/arcade/droitsCC.png')
 canvas2.create_image(10,10, anchor=NW, image=my_image2)
 
-label6=Label(fenetre, text='version 1.0')
+label6=Label(fenetre, text='version 1.1')
 label6.pack()
 
 fenetre.mainloop()
